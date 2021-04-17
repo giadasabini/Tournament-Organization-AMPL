@@ -1,0 +1,23 @@
+
+## tournament_4_1 ##
+
+# inserisco una matrice di interessi che NON mi garantirà la realizzazione del torneo
+
+# Parametri
+
+param num_teams = 6; 				#numero di squadre 
+set Teams := A, B, C, D, E, F;
+
+param interest:						#livello di interesse tra ogni match 
+	A	B	C	D   E   F:=
+A	0	2	2	3	1	2
+B	2	0	1	3	3	1	
+C	2	1	0	2	1	1
+D	3	3	2	0	2	1
+E	1	3	1	2	0	3
+F	2	1	1	1	3	0;
+
+
+
+
+

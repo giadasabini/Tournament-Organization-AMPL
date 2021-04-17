@@ -1,0 +1,22 @@
+reset;
+option solver gurobi;
+model tournament.mod;
+#data tournam1.dat;
+#data tournam2.dat;
+#data tournam3.dat;
+
+#data tournam4.1.dat;
+data tournam4.2.dat;
+
+
+display num_teams;
+display interest;
+
+solve;
+
+display x;
+display Min_level;
+
+
+
+
